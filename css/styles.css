@@ -1,0 +1,13 @@
+body {
+    width: 300px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    transform: translateY(+50%);
+    align-items: center;
+  }
+  
+  .tooltip:hover .tooltipGhost {
+    display: inline-block;
+  }
+
