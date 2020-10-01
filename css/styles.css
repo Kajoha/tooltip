@@ -11,7 +11,7 @@ body {
     display: inline-block;
   }
 
-  
+
 .tooltipGhost{
     display: none;
     position: absolute;
@@ -27,4 +27,17 @@ body {
     left: 0;
     right: 0;
     top: -40px;
+  }
+
+ 
+  
+  .tooltipText::after{
+    content: "";
+    display: block;
+    border-top: 7px solid gray;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    position: absolute;
+    bottom: -7px;
+    left: 43px;
   }
